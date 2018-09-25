@@ -1,3 +1,3 @@
-# Simple Memory Game
+# Memory Mania
 
-This is a simple memory game written with some simple JS.
+A classic match-the-tiles memory game implemented in javascript.
