@@ -16,19 +16,22 @@
             transition: all 1s ease;
         }
 
-        body.win {
-            background: radial-gradient(ellipse farthest-corner at right bottom, #FEDB37 0%, #FDB931 8%, #9f7928 30%, #8A6E2F 40%, transparent 80%), radial-gradient(ellipse farthest-corner at left top, #FDFFA7 0%, #FFFFAC 8%, #D1B464 25%, #5d4a1f 62.5%, #5d4a1f 100%)
+        @media screen and (min-width: 650px) {
+            body.win {
+                background: radial-gradient(ellipse farthest-corner at right bottom, #FEDB37 0%, #FDB931 8%, #9f7928 30%, #8A6E2F 40%, transparent 80%), radial-gradient(ellipse farthest-corner at left top, #FDFFA7 0%, #FFFFAC 8%, #D1B464 25%, #5d4a1f 62.5%, #5d4a1f 100%)
+            }
+
+            #container.win {
+                box-shadow: 0 0.5em 0.5em rgba(0, 0, 0, 0.2);
+            }
         }
+
 
         #container {
             background-color: white;
             border-radius: 2em;
             padding: 2em;
             text-align: center;
-        }
-
-        #container.win {
-            box-shadow: 0 0.5em 0.5em rgba(0, 0, 0, 0.2);
         }
 
         #confetti {
